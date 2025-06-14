@@ -1,0 +1,71 @@
+{
+    "name": "BHRAMANDA SAKTI STORE - Sparepart Otomotif Original & Terpercaya",
+    "short_name": "BHRAMANDA SAKTI STORE",
+    "description": "Penyedia sparepart motor dan mobil original terpercaya. Melayani kebutuhan pribadi dan bengkel dengan kualitas terjamin.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#dc2626",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "id",
+    "categories": [
+        "shopping",
+        "automotive",
+        "business"
+    ],
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-wide.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/screenshot-narrow.png",
+            "sizes": "750x1334",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Hubungi Kami",
+            "short_name": "Kontak",
+            "description": "Hubungi kami via WhatsApp",
+            "url": "https://wa.me/6285727769524",
+            "icons": [
+                {
+                    "src": "/icon-96x96.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Lihat Produk",
+            "short_name": "Produk",
+            "description": "Lihat produk sparepart kami",
+            "url": "/#produk",
+            "icons": [
+                {
+                    "src": "/icon-96x96.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}

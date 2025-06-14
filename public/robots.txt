@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bhramananda-sakti-store.com/sitemap.xml
+
+# Crawl-delay untuk menghormati server
+Crawl-delay: 1
+
+# Disallow admin atau private areas (jika ada)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow important files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /fonts/
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1 
